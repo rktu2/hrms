@@ -1,16 +1,16 @@
 
-hrms/backend/.env
-hrms/backend/__pycache__/
-hrms/backend/*.pyc
-hrms/backend/*.pyo
-hrms/backend/*.pyd
-hrms/backend/.venv/
-hrms/backend/venv/
+backend/.env
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.venv/
+backend/venv/
 
 
-hrms/frontend/hrms-frontend/node_modules/
-hrms/frontend/hrms-frontend/dist/
-hrms/frontend/hrms-frontend/.env
+frontend/hrms-frontend/node_modules/
+frontend/hrms-frontend/dist/
+frontend/hrms-frontend/.env
 
 
 .env
