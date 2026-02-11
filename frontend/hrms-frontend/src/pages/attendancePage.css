@@ -1,0 +1,50 @@
+.attendance-page {
+  padding: 20px;
+}
+
+.attendance-heading {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.attendance-grid {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.attendance-right {
+  flex: 1;
+}
+
+.attendance-search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.attendance-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.attendance-search-btn {
+  padding: 10px 16px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.attendance-search-btn:hover {
+  background: #1d4ed8;
+}
+
+.attendance-loading {
+  margin-top: 20px;
+  font-weight: 500;
+}
