@@ -18,7 +18,7 @@ export default function Employees() {
   }, []);
 
   const deleteEmployee = async (id) => {
-    await fetch(`http://127.0.0.1:8000/employees/${id}`, {
+    await fetch(`https://hrms-2-v6ol.onrender.com/employees/${id}`, {
       method: "DELETE"
     });
     fetchEmployees();

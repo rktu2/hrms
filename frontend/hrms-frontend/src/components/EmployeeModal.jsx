@@ -17,7 +17,7 @@ export default function EmployeeModal({ close, refresh }) {
   };
 
   const addEmployee = async () => {
-    const res = await fetch("http://127.0.0.1:8000/employees", {
+    const res = await fetch("https://hrms-2-v6ol.onrender.com/employees", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form)
