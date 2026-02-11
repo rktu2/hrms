@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api.employee_routes import router as employee_router
-from app.api.attendance_routes import router as attendance_router
+from api.employee_routes import router as employee_router
+from api.attendance_routes import router as attendance_router
 
 app = FastAPI(title="HRMS Lite API")
 
