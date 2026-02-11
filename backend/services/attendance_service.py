@@ -1,6 +1,6 @@
 from fastapi import HTTPException
-from app.config.database import attendance_collection, employee_collection
-from app.models.attendance_model import attendance_helper
+from config.database import attendance_collection, employee_collection
+from models.attendance_model import attendance_helper
 
 
 async def mark_attendance(data):

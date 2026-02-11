@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from app.schemas.employee_schema import EmployeeCreate
-from app.services.employee_service import (
+from schemas.employee_schema import EmployeeCreate
+from services.employee_service import (
     create_employee,
     get_all_employees,
     delete_employee

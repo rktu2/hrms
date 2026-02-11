@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from app.schemas.attendance_schema import AttendanceCreate
-from app.services.attendance_service import (
+from schemas.attendance_schema import AttendanceCreate
+from services.attendance_service import (
     mark_attendance,
     get_employee_attendance
 )

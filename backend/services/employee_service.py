@@ -1,5 +1,5 @@
-from app.config.database import employee_collection
-from app.models.employee_model import employee_helper
+from config.database import employee_collection
+from models.employee_model import employee_helper
 from fastapi import HTTPException
 
 
