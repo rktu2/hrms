@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import EmployeeModal from "../components/EmployeeModal";
+import api from "../services/api";
 
 export default function Employees() {
 
@@ -7,7 +8,7 @@ export default function Employees() {
   const [show, setShow] = useState(false);
 
   const fetchEmployees = async () => {
-    const res = await fetch("http://127.0.0.1:8000/employees");
+    const res = await fetch("https://hrms-2-v6ol.onrender.com/employees");
     const data = await res.json();
     setEmployees(data);
   };
